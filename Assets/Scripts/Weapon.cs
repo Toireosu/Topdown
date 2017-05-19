@@ -22,7 +22,6 @@ public class Weapon : MonoBehaviour {
             dir = transform.right;
         }
         GameObject g = Instantiate(bullet, transform.position + offset, transform.rotation);
-
         Mover mover = g.GetComponent<Mover>();
         mover.direction = dir;
         mover.lifeTime = lifeTime;

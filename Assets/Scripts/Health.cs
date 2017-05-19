@@ -8,17 +8,13 @@ public class Health : MonoBehaviour
     public float minHealth;
     public float currentHealth;
 
-    Slider healthBar;
+    public Slider healthBar;
 
     private void Start()
     {
-
-        healthBar = GameObject.FindGameObjectWithTag("HealthSlider").GetComponent<Slider>();
-
         healthBar.interactable = false;
         currentHealth = maxHealth;
         healthBar.maxValue = maxHealth;
-        
     }
 
     private void Update()
