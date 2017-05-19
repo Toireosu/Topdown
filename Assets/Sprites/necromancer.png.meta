@@ -1,6 +1,16 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 54dc9715ff241a64fb923f1d4241214b
 timeCreated: 1495221674
+=======
+<<<<<<< HEAD
+guid: 64dcc37994fecb9488ea27a3ddbb7264
+timeCreated: 1495224984
+=======
+guid: 429f646cb78c369439a0ba661a7f6313
+timeCreated: 1495221809
+>>>>>>> 6249857c1e7429f301e29f4197159cceba7df094
+>>>>>>> 823516a8f4f20fbac21d28f07e207910538c26c7
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -27,7 +37,15 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
+<<<<<<< HEAD
     filterMode: -1
+=======
+<<<<<<< HEAD
+    filterMode: -1
+=======
+    filterMode: 0
+>>>>>>> 6249857c1e7429f301e29f4197159cceba7df094
+>>>>>>> 823516a8f4f20fbac21d28f07e207910538c26c7
     aniso: -1
     mipBias: -1
     wrapMode: 1
@@ -40,7 +58,15 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
   spritePixelsToUnits: 100
+=======
+<<<<<<< HEAD
+  spritePixelsToUnits: 100
+=======
+  spritePixelsToUnits: 16
+>>>>>>> 6249857c1e7429f301e29f4197159cceba7df094
+>>>>>>> 823516a8f4f20fbac21d28f07e207910538c26c7
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -53,7 +79,23 @@ TextureImporter:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 1
+=======
+<<<<<<< HEAD
+    textureCompression: 1
+=======
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+>>>>>>> 6249857c1e7429f301e29f4197159cceba7df094
+>>>>>>> 823516a8f4f20fbac21d28f07e207910538c26c7
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
