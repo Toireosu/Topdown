@@ -87,6 +87,8 @@
     <Compile Include="Assets\Enemy_eye.cs" />
     <Compile Include="Assets\Necromancer.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
+    <Compile Include="Assets\Scripts\Grenade.cs" />
+    <Compile Include="Assets\Scripts\GrenadeThrow.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Mover.cs" />
     <Compile Include="Assets\Scripts\PlayerAim.cs" />
