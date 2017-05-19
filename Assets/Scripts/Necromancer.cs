@@ -15,13 +15,9 @@ public class Necromancer : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-<<<<<<< HEAD:Assets/Scripts/Necromancer.cs
-        target = GameObject.FindGameObjectWithTag("Player1").transform;
-=======
         target = GameObject.FindGameObjectWithTag("Player").transform;
         anim = GetComponent<Animator>();
 
->>>>>>> 8ae414ce2744864f24dd3f6f6d46bfaeb816558e:Assets/Scripts/Necromancer.cs
     }
 
     // Update is called once per frame
