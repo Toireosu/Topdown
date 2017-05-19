@@ -1,21 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 64dcc37994fecb9488ea27a3ddbb7264
-timeCreated: 1495228793
-=======
-<<<<<<< HEAD
-guid: 54dc9715ff241a64fb923f1d4241214b
-timeCreated: 1495221674
-=======
-<<<<<<< HEAD
-guid: 64dcc37994fecb9488ea27a3ddbb7264
-timeCreated: 1495224984
-=======
-guid: 429f646cb78c369439a0ba661a7f6313
-timeCreated: 1495221809
->>>>>>> 6249857c1e7429f301e29f4197159cceba7df094
->>>>>>> 823516a8f4f20fbac21d28f07e207910538c26c7
->>>>>>> 3350a32256508efa3d31e6043b9ebb489e7a48f8
+timeCreated: 1495229046
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -49,19 +34,7 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-<<<<<<< HEAD
     filterMode: 0
-=======
-<<<<<<< HEAD
-    filterMode: -1
-=======
-<<<<<<< HEAD
-    filterMode: -1
-=======
-    filterMode: 0
->>>>>>> 6249857c1e7429f301e29f4197159cceba7df094
->>>>>>> 823516a8f4f20fbac21d28f07e207910538c26c7
->>>>>>> 3350a32256508efa3d31e6043b9ebb489e7a48f8
     aniso: -1
     mipBias: -1
     wrapMode: 1
@@ -69,24 +42,12 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-<<<<<<< HEAD
   spritePixelsToUnits: 16
-=======
-<<<<<<< HEAD
-  spritePixelsToUnits: 100
-=======
-<<<<<<< HEAD
-  spritePixelsToUnits: 100
-=======
-  spritePixelsToUnits: 16
->>>>>>> 6249857c1e7429f301e29f4197159cceba7df094
->>>>>>> 823516a8f4f20fbac21d28f07e207910538c26c7
->>>>>>> 3350a32256508efa3d31e6043b9ebb489e7a48f8
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -99,15 +60,6 @@ TextureImporter:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     textureFormat: -1
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    textureCompression: 1
-=======
-<<<<<<< HEAD
-    textureCompression: 1
-=======
->>>>>>> 3350a32256508efa3d31e6043b9ebb489e7a48f8
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -117,7 +69,6 @@ TextureImporter:
     maxTextureSize: 2048
     textureFormat: -1
     textureCompression: 0
-<<<<<<< HEAD
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -142,10 +93,6 @@ TextureImporter:
     maxTextureSize: 2048
     textureFormat: -1
     textureCompression: 0
-=======
->>>>>>> 6249857c1e7429f301e29f4197159cceba7df094
->>>>>>> 823516a8f4f20fbac21d28f07e207910538c26c7
->>>>>>> 3350a32256508efa3d31e6043b9ebb489e7a48f8
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -162,7 +109,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -175,7 +122,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -188,7 +135,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -201,7 +148,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -214,7 +161,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -227,7 +174,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -240,7 +187,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
