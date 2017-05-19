@@ -9,11 +9,14 @@ public class Necromancer : MonoBehaviour
     public float speed = 1;
     float time;
     public float attackTimer = 0.2f;
+    Animator anim;
+    bool attack = false;
 
     // Use this for initialization
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
+        anim = GetComponent<Animator>();
 
     }
 
@@ -21,15 +24,23 @@ public class Necromancer : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-
         Vector3 direction = target.position - transform.position;
         transform.position -= direction.normalized * speed * Time.deltaTime;
 
+        if (!attack)
+        {
+            attack = true;
+
+        }
+
         if (time > attackTimer)
         {
+            attack = false;
             Instantiate(summoningCircle, target.position, target.rotation);
             time = 0;
         }
+
+        anim.SetBool("Summon", attack);
 
     }
 }
