@@ -13,8 +13,7 @@ public class Necromancer : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
-
+        target = GameObject.FindGameObjectWithTag("Player1").transform;
     }
 
     // Update is called once per frame

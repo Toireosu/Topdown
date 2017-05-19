@@ -12,7 +12,7 @@ public class Grenade : MonoBehaviour
     private void Start()
     {
         gtThrow = GameObject.FindGameObjectWithTag("Player1").GetComponent<GrenadeThrow>();
-        grenadeDirection = Camera.main.ScreenToWorldPoint(gtThrow.mousePosOnThrow);
+        grenadeDirection = Camera.main.ScreenToWorldPoint(gtThrow.mousePosOnThrow) - transform.position;
         Destroy(gameObject, 10);
     }
 
@@ -24,7 +24,9 @@ public class Grenade : MonoBehaviour
     void GrenadePos()
     {
         speed *= 0.99f;
-        transform.position += (Vector3)grenadeDirection.normalized * 10 * Time.deltaTime;
-        print(grenadeDirection);
+        
+        transform.position += (Vector3)grenadeDirection.normalized * speed * Time.deltaTime;
+        print((Vector3)grenadeDirection.normalized);
+        //print(grenadeDirection);
     }
 }
