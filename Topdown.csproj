@@ -79,19 +79,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraScript.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Enemy_eye.cs" />
-=======
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\Enemy_eye.cs" />
-=======
->>>>>>> 8ae414ce2744864f24dd3f6f6d46bfaeb816558e
     <Compile Include="Assets\Scripts\Grenade.cs" />
     <Compile Include="Assets\Scripts\GrenadeThrow.cs" />
->>>>>>> e2bccaf8a532f28c98c731822e74c78974f7ee5f
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Mover.cs" />
-    <Compile Include="Assets\Scripts\Necromancer.cs" />
     <Compile Include="Assets\Scripts\PlayerAim.cs" />
     <Compile Include="Assets\Scripts\PlayerFire.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
