@@ -84,13 +84,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Compile Include="Assets\CameraScript.cs" />
     <Compile Include="Assets\Enemy_eye.cs" />
-=======
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
->>>>>>> 09521a7ff348586c901a4b3b24bb8170ad6624fe
     <Compile Include="Assets\Scripts\Mover.cs" />
     <Compile Include="Assets\Scripts\PlayerAim.cs" />
     <Compile Include="Assets\Scripts\PlayerFire.cs" />
