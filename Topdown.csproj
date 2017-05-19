@@ -79,10 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Enemy_eye.cs" />
-<<<<<<< HEAD
-=======
     <Compile Include="Assets\Necromancer.cs" />
->>>>>>> 6249857c1e7429f301e29f4197159cceba7df094
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\Grenade.cs" />
     <Compile Include="Assets\Scripts\GrenadeThrow.cs" />
