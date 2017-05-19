@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerFire : MonoBehaviour {
-    
+public class PlayerFire : MonoBehaviour
+{
+
     //public GameObject currWeapon;
     public GameObject[] weapons;
-	PlayerAim.Direction direction;
+    PlayerAim.Direction direction;
     private KeyCode[] keyCodes = {
          KeyCode.Alpha1,
          KeyCode.Alpha2,
@@ -25,7 +26,8 @@ public class PlayerFire : MonoBehaviour {
         direction = GetComponent<PlayerAim>().direction;
     }
 
-    void Update() {
+    void Update()
+    {
 
         // Renders only the current weapon
         for (int i = 0; i < weapons.Length; i++)
@@ -53,7 +55,7 @@ public class PlayerFire : MonoBehaviour {
             {
                 if (i < weapons.Length)
                     currWeapon = i;
-                
+
             }
         }
     }
