@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAim : MonoBehaviour {
+public class PlayerAim : MonoBehaviour
+{
     public enum Direction { LEFT, RIGHT }
     public Direction direction;
     GameObject arm1;
@@ -21,7 +22,8 @@ public class PlayerAim : MonoBehaviour {
     // Player Sprite
     SpriteRenderer sprite;
 
-	void Start () {
+    void Start()
+    {
         direction = Direction.LEFT;
         // Get the arm sprites
         arm1 = transform.Find("arm1").gameObject;
@@ -31,9 +33,10 @@ public class PlayerAim : MonoBehaviour {
         armRight = transform.Find("rightArm");
         // Getting the players sprite renderer
         sprite = GetComponent<SpriteRenderer>();
-	}
-	
-	void Update () {
+    }
+
+    void Update()
+    {
         PlayerFire playerFire = GetComponent<PlayerFire>();
         currWeapon = playerFire.weapons[playerFire.currWeapon];
         // Getting mouseposition
@@ -70,9 +73,9 @@ public class PlayerAim : MonoBehaviour {
             currWeapon.transform.position = pos1.position;
             currWeapon.GetComponent<SpriteRenderer>().flipX = false;
         }
-        
+
 
         arm1.transform.rotation = Quaternion.Euler(0, 0, angle);
-        
-	}
+
+    }
 }
