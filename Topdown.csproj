@@ -78,26 +78,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+    <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
-=======
-<<<<<<< HEAD
-    <Compile Include="Assets\CameraScript.cs" />
-    <Compile Include="Assets\Mover.cs" />
-    <Compile Include="Assets\PlayerAim.cs" />
-    <Compile Include="Assets\PlayerFire.cs" />
-    <Compile Include="Assets\PlayerMove.cs" />
-    <Compile Include="Assets\Shotgun.cs" />
-    <Compile Include="Assets\Weapon.cs" />
-=======
->>>>>>> ae0e7f32f66df32bd0a5e42bbb343ce54c083e6a
     <Compile Include="Assets\Scripts\Mover.cs" />
     <Compile Include="Assets\Scripts\PlayerAim.cs" />
     <Compile Include="Assets\Scripts\PlayerFire.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\Shotgun.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
->>>>>>> 11dbff8d35784ae8f87a42574f20c8feda78324c
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

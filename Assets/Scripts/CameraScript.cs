@@ -8,13 +8,6 @@ public class CameraScript : MonoBehaviour
     public float mouseChange = 0.7f;
 
 
-    // Use this for initialization
-    void Start()
-    {
-
-
-    }
-
     // Update is called once per frame
     void Update()
     {
