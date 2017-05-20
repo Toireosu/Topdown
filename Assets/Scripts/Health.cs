@@ -9,9 +9,13 @@ public class Health : MonoBehaviour
 
 
     // Use this for initialization
-    void Update()
+    private void Start()
     {
         health = maxHp;
+    }
+    void Update()
+    {
+        maxHp = health;
     }
 
     // Update is called once per frame
