@@ -5,28 +5,24 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public float maxHp;
-    float health;
+    [HideInInspector]
+    public float currHp;
 
 
     // Use this for initialization
     private void Start()
     {
-        health = maxHp;
-    }
-    void Update()
-    {
-        maxHp = health;
+        currHp = maxHp;
     }
 
     // Update is called once per frame
     public void TakeDamage(int dmg)
     {
-        health -= dmg;
+        currHp -= dmg;
     }
 
     public void Heal(int hp)
     {
-        health += hp;
-
+        currHp += hp;
     }
 }
