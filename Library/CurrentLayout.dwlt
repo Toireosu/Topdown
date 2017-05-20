@@ -39,10 +39,17 @@ MonoBehaviour:
     x: 1282
     y: 0
     width: 313
+<<<<<<< HEAD
+    height: 650
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
+=======
     height: 644
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 18}
+>>>>>>> b28480bd70d350b76555c7efd4614039dbfa452e
   m_Panes:
   - {fileID: 18}
   m_Selected: 0
@@ -70,7 +77,11 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
+<<<<<<< HEAD
+  controlID: 70
+=======
   controlID: 33
+>>>>>>> b28480bd70d350b76555c7efd4614039dbfa452e
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -88,10 +99,17 @@ MonoBehaviour:
     x: 968
     y: 0
     width: 627
+<<<<<<< HEAD
+    height: 297
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 20}
+=======
     height: 303
   m_MinSize: {x: 104, y: 121}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 21}
+>>>>>>> b28480bd70d350b76555c7efd4614039dbfa452e
   m_Panes:
   - {fileID: 21}
   m_Selected: 0
@@ -432,9 +450,15 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+    m_SelectedIDs: ca240000
+    m_LastClickedID: 9418
+    m_ExpandedIDs: 00000000ca24000000ca9a3bffffff7f
+=======
     m_SelectedIDs: de270000
     m_LastClickedID: 10206
     m_ExpandedIDs: 00000000ae27000000ca9a3bffffff7f
+>>>>>>> b28480bd70d350b76555c7efd4614039dbfa452e
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Scenes
@@ -462,7 +486,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000ca240000
+=======
     m_ExpandedIDs: 00000000ae270000
+>>>>>>> b28480bd70d350b76555c7efd4614039dbfa452e
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -578,9 +606,15 @@ MonoBehaviour:
     height: 623
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+    m_SelectedIDs: d8fbffff
+    m_LastClickedID: -1064
+    m_ExpandedIDs: e4fbffff00000000
+=======
     m_SelectedIDs: 9642ffff
     m_LastClickedID: -48490
     m_ExpandedIDs: b2aeffff00f4ffff3ef6ffff00000000
+>>>>>>> b28480bd70d350b76555c7efd4614039dbfa452e
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Canvas
