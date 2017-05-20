@@ -1,40 +1,28 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class Health : MonoBehaviour
 {
+    public float maxHp;
+    float health;
 
-    public float maxHealth;
-    public float minHealth;
-    public float currentHealth;
 
-    public Slider healthBar;
-
-    private void Start()
+    // Use this for initialization
+    void Update()
     {
-        healthBar.interactable = false;
-        currentHealth = maxHealth;
-        healthBar.maxValue = maxHealth;
+        health = maxHp;
     }
 
-    private void Update()
+    // Update is called once per frame
+    public void TakeDamage(int dmg)
     {
-        Slider();
-        //Testa slidern
-        RemoveHealth();
+        health -= dmg;
     }
 
-    void Slider()
+    public void Heal(int hp)
     {
-        healthBar.value = currentHealth;
-    }
+        health += hp;
 
-    void RemoveHealth()
-    {
-        if (Input.GetKey(KeyCode.H))
-        {
-            currentHealth -= 0.05f;
-        }
     }
-
 }
