@@ -7,6 +7,7 @@ public class HealthBar : MonoBehaviour
     Canvas canvas;
     Slider healthBar;
     GameObject player;
+    RectTransform sliderPos;
 
     private void Start()
     {
@@ -16,7 +17,8 @@ public class HealthBar : MonoBehaviour
 
         transform.SetParent(canvas.transform);
 
-        GetComponent<RectTransform>().position = new Vector3(100, 582, 0);
+        sliderPos = GameObject.Find("HealthBarPos").GetComponent<RectTransform>();
+        GetComponent<RectTransform>().position = sliderPos.position;
 
         healthBar.interactable = false;
         healthBar.maxValue = player.GetComponent<Health>().maxHp;
