@@ -7,8 +7,6 @@ public class Health : MonoBehaviour
     public float maxHp;
     public float currHp;
 
-
-
     // Use this for initialization
     private void Start()
     {
