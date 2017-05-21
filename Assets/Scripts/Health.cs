@@ -5,8 +5,8 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public float maxHp;
-    [HideInInspector]
     public float currHp;
+
 
 
     // Use this for initialization
@@ -19,6 +19,14 @@ public class Health : MonoBehaviour
     public void TakeDamage(int dmg)
     {
         currHp -= dmg;
+        if (gameObject.tag == "Player")
+        {
+
+        }
+        else if (currHp <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void Heal(int hp)
