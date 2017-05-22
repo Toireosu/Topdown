@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ba36b130cdd41224c9b358d74afcbc6c
-timeCreated: 1495484528
+timeCreated: 1495485944
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -126,12 +126,12 @@ TextureImporter:
       name: weapons_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 48
+        y: 4
+        width: 37
+        height: 13
+      alignment: 9
+      pivot: {x: 0.8777952, y: 0.28278077}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
