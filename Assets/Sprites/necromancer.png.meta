@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 429f646cb78c369439a0ba661a7f6313
-timeCreated: 1495267488
+timeCreated: 1495488784
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -47,7 +47,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -106,10 +106,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 32
+        width: 32
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -117,12 +117,12 @@ TextureImporter:
       name: necromancer_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 32
         y: 0
-        width: 17
-        height: 32
+        width: 32
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -130,12 +130,12 @@ TextureImporter:
       name: necromancer_2
       rect:
         serializedVersion: 2
-        x: 36
+        x: 64
         y: 0
-        width: 16
-        height: 32
+        width: 32
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -143,12 +143,12 @@ TextureImporter:
       name: necromancer_3
       rect:
         serializedVersion: 2
-        x: 53
+        x: 96
         y: 0
-        width: 17
-        height: 32
+        width: 32
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -156,12 +156,12 @@ TextureImporter:
       name: necromancer_4
       rect:
         serializedVersion: 2
-        x: 71
+        x: 128
         y: 0
-        width: 17
-        height: 32
+        width: 32
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -169,12 +169,12 @@ TextureImporter:
       name: necromancer_5
       rect:
         serializedVersion: 2
-        x: 89
+        x: 160
         y: 0
-        width: 17
-        height: 32
+        width: 32
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -182,12 +182,12 @@ TextureImporter:
       name: necromancer_6
       rect:
         serializedVersion: 2
-        x: 107
+        x: 192
         y: 0
-        width: 17
-        height: 32
+        width: 32
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
