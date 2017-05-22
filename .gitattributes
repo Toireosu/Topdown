@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Library/*
+ExportedObj/*
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
