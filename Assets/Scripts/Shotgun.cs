@@ -12,26 +12,20 @@ public class Shotgun : Weapon
     [Range(0f, 100f)]
     public float spread = 80f;
 
-    public override void Shoot(PlayerAim.Direction direction)
+    public override void Shoot(Vector3 dir)
     {
         for (int i = 0; i < pellets; i++)
         {
-            barrelPos = pos2;
-
-            if (direction == PlayerAim.Direction.RIGHT)
-            {
-                barrelPos = pos1;
-            }
 
             float randomRotation = Random.Range(-spread, spread);
             GameObject g = Instantiate(bullet, barrelPos.position, transform.rotation * Quaternion.Euler(0, 0, -randomRotation));
             Mover mover = g.GetComponent<Mover>();
-            Vector3 dir = -g.transform.right;
-            if (direction == PlayerAim.Direction.RIGHT)
+            Vector3 dir2 = g.transform.right;
+            if (dir == -transform.right)
             {
-                dir = g.transform.right;
+                dir2 = -g.transform.right;
             }
-            mover.direction = dir;
+            mover.direction = dir2;
             mover.lifeTime = lifeTime;
         }
     }
