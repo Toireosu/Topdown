@@ -2,22 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SetLayerOrder : MonoBehaviour
+public class SetLayerPosStill : MonoBehaviour
 {
 
     SpriteRenderer sr;
     public int order;
 
-    // Update is called once per frame
-
-    private void OnEnable()
+    private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        sr.sortingOrder = ((int)(transform.position.y * 10) - order) * -1;
     }
 
-    void Update()
-    {
-        sr.sortingOrder = ((int)(transform.position.y * 10) - order) * -1;
-        //print(sr.sortingOrder);
-    }
 }
