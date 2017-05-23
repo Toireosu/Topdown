@@ -980,14 +980,10 @@ Prefab:
       propertyPath: m_Name
       value: stone_wall (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4477799497875620, guid: d0929a6eaa89cf940b86a35ee1b12f55, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212464774119101564, guid: d0929a6eaa89cf940b86a35ee1b12f55,
+    - target: {fileID: 61135352935839810, guid: d0929a6eaa89cf940b86a35ee1b12f55,
         type: 2}
-      propertyPath: m_SortingOrder
-      value: -1
+      propertyPath: m_Offset.y
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d0929a6eaa89cf940b86a35ee1b12f55, type: 2}
@@ -1880,7 +1876,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1419216142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -103, y: 1.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1899,6 +1895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 933635214}
   mouseChange: 0.7
+  smoothTime: 0.3
 --- !u!1001 &1461184078
 Prefab:
   m_ObjectHideFlags: 0
@@ -2478,6 +2475,16 @@ Prefab:
     - target: {fileID: 4325590053817246, guid: 03bebba82fe9aea43941f90140500dc2, type: 2}
       propertyPath: m_RootOrder
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 61098498460606510, guid: 03bebba82fe9aea43941f90140500dc2,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61098498460606510, guid: 03bebba82fe9aea43941f90140500dc2,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 03bebba82fe9aea43941f90140500dc2, type: 2}
