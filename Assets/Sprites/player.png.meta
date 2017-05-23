@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bf77aa1c838a118479be74a754b92380
-timeCreated: 1495564895
+timeCreated: 1495570983
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,6 +9,8 @@ TextureImporter:
     21300004: player_2
     21300006: player_3
     21300008: player_4
+    21300010: player_5
+    21300012: player_6
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -103,11 +105,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 192
         width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -116,11 +118,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 154
+        y: 218
         width: 4
         height: 26
       alignment: 9
-      pivot: {x: 0.55456924, y: 0.9527567}
+      pivot: {x: 0.4999981, y: 0.8981558}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -129,11 +131,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 36
-        y: 135
+        y: 199
         width: 17
         height: 14
       alignment: 9
-      pivot: {x: 0.9294715, y: 0.9034368}
+      pivot: {x: 0.86857176, y: 0.8502579}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -142,7 +144,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 65
+        y: 129
         width: 32
         height: 63
       alignment: 0
@@ -154,10 +156,36 @@ TextureImporter:
       name: player_4
       rect:
         serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_6
+      rect:
+        serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 65
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
