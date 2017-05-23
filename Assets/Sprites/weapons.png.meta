@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ba36b130cdd41224c9b358d74afcbc6c
-timeCreated: 1495485944
+timeCreated: 1495550018
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -101,9 +101,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
-        width: 30
-        height: 14
+        y: 22
+        width: 23
+        height: 10
       alignment: 9
       pivot: {x: 0.8733359, y: 0.2779447}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,10 +113,10 @@ TextureImporter:
       name: weapons_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 16
-        width: 16
-        height: 16
+        width: 8
+        height: 1
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,12 +126,12 @@ TextureImporter:
       name: weapons_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 4
-        width: 37
-        height: 13
+        x: 0
+        y: 3
+        width: 19
+        height: 11
       alignment: 9
-      pivot: {x: 0.8777952, y: 0.28278077}
+      pivot: {x: 0.87779516, y: 0.23706745}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

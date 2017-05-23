@@ -6,9 +6,9 @@ public class Shotgun : Weapon
 {
 
     public float pellets = 0;
-    public Transform pos3;
-    public Transform pos4;
-    Transform barrelPos2;
+    //public Transform pos3;
+    //public Transform pos4;
+    //Transform barrelPos2;
     [Range(0f, 100f)]
     public float spread = 80f;
 
@@ -16,15 +16,15 @@ public class Shotgun : Weapon
     {
         for (int i = 0; i < pellets; i++)
         {
-            barrelPos2 = pos4;
+            barrelPos = pos2;
 
             if (direction == PlayerAim.Direction.RIGHT)
             {
-                barrelPos2 = pos3;
+                barrelPos = pos1;
             }
 
             float randomRotation = Random.Range(-spread, spread);
-            GameObject g = Instantiate(bullet, barrelPos2.position, transform.rotation * Quaternion.Euler(0, 0, -randomRotation));
+            GameObject g = Instantiate(bullet, barrelPos.position, transform.rotation * Quaternion.Euler(0, 0, -randomRotation));
             Mover mover = g.GetComponent<Mover>();
             Vector3 dir = -g.transform.right;
             if (direction == PlayerAim.Direction.RIGHT)

@@ -12,7 +12,8 @@ public class Weapon : MonoBehaviour
     public Transform pos1;
     public Transform pos2;
 
-    Transform barrelPos;
+    [HideInInspector]
+    public Transform barrelPos;
 
     public Vector3 offset;
 
