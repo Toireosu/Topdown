@@ -36,7 +36,7 @@ public class Necromancer : MonoBehaviour
         if (time > attackTimer)
         {
             attack = false;
-            Instantiate(summoningCircle, target.position, target.rotation);
+            Instantiate(summoningCircle, target.position - new Vector3(0, 0.9f, 0), target.rotation);
             time = 0;
         }
 
