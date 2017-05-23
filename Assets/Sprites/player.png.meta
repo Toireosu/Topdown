@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bf77aa1c838a118479be74a754b92380
-timeCreated: 1495124676
+timeCreated: 1495549372
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -43,7 +43,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -102,8 +102,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 32
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,12 +113,12 @@ TextureImporter:
       name: player_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 10
-        width: 3
-        height: 8
+        x: 35
+        y: 26
+        width: 4
+        height: 26
       alignment: 9
-      pivot: {x: 0.5, y: 0.9568496}
+      pivot: {x: 0.55456924, y: 0.9527567}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -126,12 +126,12 @@ TextureImporter:
       name: player_2
       rect:
         serializedVersion: 2
-        x: 20
-        y: 20
-        width: 10
-        height: 6
+        x: 36
+        y: 7
+        width: 17
+        height: 14
       alignment: 9
-      pivot: {x: 0.8506626, y: 0.91980773}
+      pivot: {x: 0.9294715, y: 0.9034368}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
