@@ -45,14 +45,14 @@ TagManager:
   - name: Background
     uniqueID: 1062765021
     locked: 0
+  - name: LayerTransform
+    uniqueID: 727277525
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Bullet
     uniqueID: 3217519057
-    locked: 0
-  - name: Player
-    uniqueID: 727277525
     locked: 0
   - name: Foreground
     uniqueID: 3554369595
