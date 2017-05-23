@@ -11,6 +11,8 @@ public class Necromancer : MonoBehaviour
     public float attackTimer = 0.2f;
     Animator anim;
     bool attack = false;
+    bool isAllowedToMove = false;
+    public float animTime;
 
     // Use this for initialization
     void Start()
@@ -25,20 +27,28 @@ public class Necromancer : MonoBehaviour
     {
         time += Time.deltaTime;
         Vector3 direction = target.position - transform.position;
-        transform.position -= direction.normalized * speed * Time.deltaTime;
-
-        if (!attack)
-        {
-            attack = true;
-
-        }
 
         if (time > attackTimer)
         {
-            attack = false;
+
             Instantiate(summoningCircle, target.position - new Vector3(0, 0.9f, 0), target.rotation);
             time = 0;
+            attack = false;
+
+
         }
+
+        else if (time < attackTimer - animTime)
+        {
+            transform.position -= direction.normalized * speed * Time.deltaTime;
+
+        }
+
+        else if (time > attackTimer - animTime)
+        {
+            attack = true;
+        }
+
 
         anim.SetBool("Summon", attack);
 

@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 61702217341282442}
   - component: {fileID: 114890880241877218}
   - component: {fileID: 50155378207837640}
+  - component: {fileID: 114696610065894080}
   m_Layer: 0
   m_Name: necromancer
   m_TagString: Enemy
@@ -39,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1517606097819706}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.9958763, y: -0.10746288, z: 0}
+  m_LocalPosition: {x: -3.4862294, y: 0.76606774, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,18 +78,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.9482684}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 1, y: 2.5}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 1, y: 0.5775976}
   m_EdgeRadius: 0
 --- !u!95 &95962108797170844
 Animator:
@@ -107,6 +108,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114696610065894080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517606097819706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 229618c57a9ba044eb6ed96b05b3b6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  order: 1
 --- !u!114 &114822459944751862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -121,7 +134,8 @@ MonoBehaviour:
   summoningCircle: {fileID: 1062065485355304, guid: 283f044fae532bb408c9551de953cda1,
     type: 2}
   speed: 1
-  attackTimer: 2
+  attackTimer: 4
+  animTime: 2
 --- !u!114 &114890880241877218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -164,8 +178,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 727277525
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 429f646cb78c369439a0ba661a7f6313, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
