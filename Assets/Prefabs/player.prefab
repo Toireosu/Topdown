@@ -147,6 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4217863664527270}
   - component: {fileID: 212810258762475312}
+  - component: {fileID: 114345788640799112}
   - component: {fileID: 114155668764851676}
   - component: {fileID: 114458255817601476}
   - component: {fileID: 114834320062227998}
@@ -156,7 +157,6 @@ GameObject:
   - component: {fileID: 114586038652866386}
   - component: {fileID: 114673415391339348}
   - component: {fileID: 61004961516442066}
-  - component: {fileID: 114345788640799112}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -274,7 +274,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1594028470785164}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.98, y: -0.93, z: 0}
+  m_LocalPosition: {x: -2.042, y: -0.159, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4570915436144404}
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 229618c57a9ba044eb6ed96b05b3b6cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 3
+  order: 4
 --- !u!114 &114458255817601476
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -649,7 +649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 229618c57a9ba044eb6ed96b05b3b6cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  order: 10
+  order: 11
 --- !u!212 &212125666226649834
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -663,7 +663,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 48763e0f72acb0243906c18cdf98538e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -703,7 +703,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 48763e0f72acb0243906c18cdf98538e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -783,7 +783,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 48763e0f72acb0243906c18cdf98538e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
