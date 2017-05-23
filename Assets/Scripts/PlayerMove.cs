@@ -9,11 +9,12 @@ public class PlayerMove : MonoBehaviour
     float speed;
 
     Rigidbody2D rb2d;
-    bool move = true;
+    Animator anim;
 
     private void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -55,6 +56,15 @@ public class PlayerMove : MonoBehaviour
         float y = Input.GetAxisRaw("Vertical");
 
         Vector2 movement = new Vector2(x, y);
+
+        if (x != 0 || y != 0)
+        {
+            anim.SetBool("Walking", true);
+        }
+        else
+        {
+            anim.SetBool("Walking", false);
+        }
 
         rb2d.velocity = movement.normalized * speed;
     }
