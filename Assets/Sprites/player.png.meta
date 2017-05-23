@@ -1,12 +1,14 @@
 fileFormatVersion: 2
 guid: bf77aa1c838a118479be74a754b92380
-timeCreated: 1495549372
+timeCreated: 1495564895
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: player_0
     21300002: player_1
     21300004: player_2
+    21300006: player_3
+    21300008: player_4
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -101,7 +103,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 128
         width: 32
         height: 64
       alignment: 0
@@ -114,7 +116,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 26
+        y: 154
         width: 4
         height: 26
       alignment: 9
@@ -127,11 +129,37 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 36
-        y: 7
+        y: 135
         width: 17
         height: 14
       alignment: 9
       pivot: {x: 0.9294715, y: 0.9034368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
