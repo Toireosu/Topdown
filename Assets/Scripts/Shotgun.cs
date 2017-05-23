@@ -2,17 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shotgun : Weapon {
+public class Shotgun : Weapon
+{
 
     public float pellets = 0;
-    [Range(0f, 100f)] public float spread = 80f;
+    public Transform pos3;
+    public Transform pos4;
+    Transform barrelPos2;
+    [Range(0f, 100f)]
+    public float spread = 80f;
 
     public override void Shoot(PlayerAim.Direction direction)
     {
         for (int i = 0; i < pellets; i++)
         {
+            barrelPos2 = pos4;
+
+            if (direction == PlayerAim.Direction.RIGHT)
+            {
+                barrelPos2 = pos3;
+            }
+
             float randomRotation = Random.Range(-spread, spread);
-            GameObject g = Instantiate(bullet, transform.position + offset, transform.rotation * Quaternion.Euler(0, 0, -randomRotation));
+            GameObject g = Instantiate(bullet, barrelPos2.position, transform.rotation * Quaternion.Euler(0, 0, -randomRotation));
             Mover mover = g.GetComponent<Mover>();
             Vector3 dir = -g.transform.right;
             if (direction == PlayerAim.Direction.RIGHT)
