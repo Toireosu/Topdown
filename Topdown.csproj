@@ -98,9 +98,12 @@
     <Compile Include="Assets\Scripts\PlayerAim.cs" />
     <Compile Include="Assets\Scripts\PlayerFire.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\SetLayerOrder.cs" />
+    <Compile Include="Assets\Scripts\SetLayerPosStill.cs" />
     <Compile Include="Assets\Scripts\Shotgun.cs" />
     <Compile Include="Assets\Scripts\Summon.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
+    <Compile Include="Assets\SimpleAI.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
