@@ -6,10 +6,13 @@ public class Health : MonoBehaviour
 {
     public float maxHp;
     public float currHp;
+    SpriteRenderer spriteR;
+    float time;
 
     // Use this for initialization
     private void Start()
     {
+        spriteR = GetComponent<SpriteRenderer>();
         currHp = maxHp;
     }
 
@@ -17,6 +20,9 @@ public class Health : MonoBehaviour
     public void TakeDamage(int dmg)
     {
         currHp -= dmg;
+        time = 0;
+        spriteR.color = Color.red;
+
         if (gameObject.tag == "Player")
         {
 
@@ -30,5 +36,14 @@ public class Health : MonoBehaviour
     public void Heal(int hp)
     {
         currHp += hp;
+    }
+
+    public void Update()
+    {
+        time += Time.deltaTime;
+        if (time > 0.1f)
+        {
+            spriteR.color = Color.white;
+        }
     }
 }
