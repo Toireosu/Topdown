@@ -7,11 +7,15 @@ public class SetLayerPosStill : MonoBehaviour
 
     SpriteRenderer sr;
     public int order;
+    public bool ignore;
 
     private void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
-        sr.sortingOrder = ((int)(transform.position.y * 10) - order) * -1;
+        if (!ignore)
+        {
+            sr = GetComponent<SpriteRenderer>();
+            sr.sortingOrder = ((int)(transform.position.y * 10) - order) * -1;
+        }
     }
 
 }
