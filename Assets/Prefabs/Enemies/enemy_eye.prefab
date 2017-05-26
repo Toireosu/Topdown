@@ -195,10 +195,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  eyeLaser: {fileID: 1007581418824920, guid: cea28514be7346a40b50d7cd59d96dd3, type: 2}
   speed: 3
   rotateSpeed: 5
   range: 5
   timeKnockedOut: 0.5
+  attackSpeed: 0.3
 --- !u!212 &212990846808902624
 SpriteRenderer:
   m_ObjectHideFlags: 1

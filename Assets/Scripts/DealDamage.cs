@@ -12,6 +12,7 @@ public class DealDamage : MonoBehaviour
         if (other.gameObject.tag == targetTag)
         {
             other.gameObject.GetComponent<Health>().TakeDamage(dmg);
+            Destroy(gameObject);
         }
 
     }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy_eye : MonoBehaviour
 {
     public Transform target;
+    public GameObject eyeLaser;
     public float speed = 1;
     [SerializeField] [Range(0.0f, 60.0f)] float rotateSpeed = 5; 
     [SerializeField] [Range(0.0f, 20.0f)] float range = 5;
@@ -16,6 +17,9 @@ public class Enemy_eye : MonoBehaviour
 
     float bounce = 0;
 
+    float attackTimer;
+    public float attackSpeed;
+
     private void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -23,6 +27,7 @@ public class Enemy_eye : MonoBehaviour
 
     void Update()
     {
+        attackTimer += Time.deltaTime;
         bounce -= Time.deltaTime;
         Vector3 direction = target.position - transform.position;
         if (bounce <= 0)
@@ -60,6 +65,7 @@ public class Enemy_eye : MonoBehaviour
         angle = Mathf.Rad2Deg * angle;
 
         transform.rotation = Quaternion.Euler(0, 0, angle);
+        if(attackTimer > attackSpeed) { Instantiate(eyeLaser, transform.position, transform.rotation * Quaternion.Euler(0, 0, -90)); attackTimer = 0; }
 
     }
 
